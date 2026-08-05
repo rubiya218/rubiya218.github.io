@@ -23,10 +23,8 @@ Research Interest
 
 My research interests lie at the intersection of **semiconductor devices, thin-film materials, neural interfaces, microfabrication, and nanobiosensors**. I am interested in developing and characterizing reliable neural interface technologies, including flexible microelectrode arrays and thin-film devices for recording and stimulation in the nervous system.
 
-The Deku Lab engineers thin-film materials and develops fabrication methods for chronically reliable neural interfaces, with applications in cortical interfacing, peripheral nerves, vision restoration, epilepsy, paralysis, and related neuroengineering problems.
-
 
 Technical Skills
 ================
 
-Microfabrication, thin-film device fabrication and packaging, semiconductor process development, materials characterization, scanning electron microscopy, atomic force microscopy, electrochemical measurements, Python, MATLAB, and data analysis.
+Microfabrication, thin-film device fabrication and packaging, semiconductor process development, materials characterization, defect metrology, design of experiments (DOE).
