@@ -5,38 +5,60 @@ permalink: /projects/
 author_profile: true
 ---
 
+<section class="project-showcase">
+  <article class="project-feature">
+    <h2>Establishing a Systematic Relationship Between MEA Geometry and Mechanical Strain</h2>
+    <div class="project-feature__body">
+      <div class="project-feature__image">
+        <img src="/images/project-mea-strain.png" alt="Microelectrode array entering a tissue block with finite-element strain contours">
+      </div>
+      <div class="project-feature__story">
+        <p>What makes a neural implant gentle enough for the brain? This project begins with that question, using finite element modeling to understand how microelectrode array geometry shapes the mechanical strain inside surrounding tissue.</p>
+        <p>I built COMSOL models of geometry-based MEAs interacting with a rodent brain tissue block, then studied how changes in length, width, and thickness altered the strain field. The goal was to move implant design from intuition toward a systematic design space.</p>
+        <p class="project-feature__note">Focus: COMSOL Multiphysics, finite element modeling, design of experiment, neural interface mechanics.</p>
+      </div>
+    </div>
+  </article>
 
-Feedback tuned MPC controller design for Wave Energy Converters (WECs)
-======================================================================
-The design of effective control systems is critical to the success of Wave Energy Converters (WECs) in converting wave energy into electrical power. As part of my work in this area, I have been involved in the development of a feedback-tuned MPC controller for WECs. To optimize power output, I first designed a linear feedback controller and optimized its gains. Next, I developed an MPC controller based on the linear feedback gains, using impedance matching techniques. To further improve the performance of the MPC controller, I utilized linear matrix inequality (LMI) optimization techniques to improve the DC gain of the controller. The resulting controller design exhibits improved performance close to a linear controller, enabling more effective energy capture from waves. By improving the efficiency and reliability of WECs, this work has the potential to significantly impact the renewable energy industry.
+  <article class="project-feature">
+    <h2>Thin Film Microelectrode Array Fabrication and In-Vivo Immune Response Analysis</h2>
+    <div class="project-feature__body">
+      <div class="project-feature__image">
+        <img src="/images/project-mea-fabrication.png" alt="Wafer-scale thin film microelectrode arrays with microscopy-inspired immune response imagery">
+      </div>
+      <div class="project-feature__story">
+        <p>After modeling the design, the next step was to build it. I fabricated 32 geometry-based thin-film MEAs through wafer preparation, thin-film deposition, photolithography, plasma and wet etching, PECVD passivation, and thermal curing.</p>
+        <p>The work connected cleanroom process development with biological validation. Devices reached 90% yield across wafers, then moved into a chronic 16-week rat implantation study where GFAP, Iba1, and NeuN histology helped quantify geometry-dependent immune response.</p>
+        <p class="project-feature__note">Focus: thin-film fabrication, a-SiC, polyimide, metal deposition, histology, chronic neural implants.</p>
+      </div>
+    </div>
+  </article>
 
-![image](https://user-images.githubusercontent.com/116129150/236619888-93a3d6de-dc19-4d46-8510-02fbf1dbf64f.png)
+  <article class="project-feature">
+    <h2>Multi-Output Neural Network for Predicting Neuroinflammation</h2>
+    <div class="project-feature__body">
+      <div class="project-feature__image">
+        <img src="/images/project-neural-network.png" alt="Neural network connecting implant geometry and strain fields to multiple biomarker outputs">
+      </div>
+      <div class="project-feature__story">
+        <p>Instead of fabricating and implanting every possible design, this project asks whether computation can narrow the search. I trained a feedforward neural network to connect MEA geometry and FEM-derived strain features with biological outcomes.</p>
+        <p>The model predicts GFAP, CD68, Iba1, and NeuN loss as multiple outputs, creating a faster path for screening neural interface designs in silico. I validated the workflow using 5-fold cross-validation and evaluated performance with R-squared and RMSE metrics.</p>
+        <p class="project-feature__note">Focus: neural networks, FEM-derived features, neuroinflammation prediction, model validation.</p>
+      </div>
+    </div>
+  </article>
 
-
-Linear PTO for tractor trailer suspension system
-======================================================================
-As part of my recent work, I have focused on the development of a Linear PTO for a tractor trailer suspension system. One of the key challenges in this project was understanding the relative movement between the Chassis and Cab of a Class 8 Commercial Tractor. To address this, I demonstrated and formulated the relative movement to better understand the system and optimize the energy extraction process. Through my research, I was able to design a linear energy extraction methodology that minimizes parasitic loss on the inherent system of the tractor-trailer. This approach will lead to improved efficiency and reduced energy waste, which can have a significant impact on the transportation industry. By leveraging my expertise in mechanical engineering and system optimization, I was able to develop a more effective and efficient tractor trailer suspension system.
-
-![cab (1)](https://user-images.githubusercontent.com/116129150/236620105-5971ae00-2441-44cb-b70f-4bd064b451fa.png)
-
-
-Supercapacitors for Pulsed Power Application
-======================================================================
-As part of my work in the field of energy storage, I have been involved in the design and development of a supercapacitor-based system for pulsed power applications. Specifically, I focused on developing a 1 kW prototype for marine controlled source electromagnetic (MCSEM) using DC/DC converters and supercapacitors. In order to achieve high power output, I outlined a supercapacitor module controlled by a dual active bridge (DAB) converter. Additionally, I designed an active front end for the energy storage system, allowing for 3-Ph AC power to be converted to DC output. To effectively control the generator, I implemented a d-q current control framework. Through these efforts, I was able to develop a highly efficient and effective energy storage system that can be used for a wide range of pulsed power applications. This work has the potential to significantly impact the field of energy storage, improving the reliability and efficiency of pulsed power systems in a variety of industries.
-
-
-
-AI Based Prognostics and Health Management of BLDC Motors 
-==========================================================
-
-Prognostics and health management (PHM) has become a fundamental element of engineering systems for ensuring improved system reliability and productivity. With increasing demand, machines are functioning in more complex environment with intricate operating conditions. A failure in a machine can cause an unexpected shutdown of the entire system, reduction in output, loss of human and environmental resources. Therefore, health monitoring of a system is a foremost necessity to avoid catastrophic failures and maximize the output. In this study, we investigate several electrical and mechanical faults of permanent magnet brushless DC (BLDC) motor by monitoring multiple sensor data collected from different experiments. Degradation pattern of motor health was continuously monitored by analyzing several sensor data such as-vibration, temperature, current and voltage data.
-
-![image](https://user-images.githubusercontent.com/116129150/236619701-a2e81274-69b5-439b-a753-0f2bf98d5db1.png)
-
-
-Reliability Analysis of Multi-GPU PSU System 
-==========================================================
-
-Prognostics and health management (PHM) has become a fundamental element of engineering systems for ensuring improved system reliability and productivity. With increasing demand, machines are functioning in more complex environment with intricate operating conditions. A failure in a machine can cause an unexpected shutdown of the entire system, reduction in output, loss of human and environmental resources. Therefore, health monitoring of a system is a foremost necessity to avoid catastrophic failures and maximize the output. In this study, we investigate several electrical and mechanical faults of permanent magnet brushless DC (BLDC) motor by monitoring multiple sensor data collected from different experiments. Degradation pattern of motor health was continuously monitored by analyzing several sensor data such as-vibration, temperature, current and voltage data.
-
-![image](https://user-images.githubusercontent.com/116129150/236619710-7a231c35-bce4-41a6-bc9c-d3c913d0b0c4.png)
+  <article class="project-feature">
+    <h2>Investigating Artificial Nanocomposite Fibers to Mimic Human Hair Nanotribology</h2>
+    <div class="project-feature__body">
+      <div class="project-feature__image">
+        <img src="/images/project-nanotribology.png" alt="Atomic force microscope probe scanning natural and synthetic nanocomposite fibers">
+      </div>
+      <div class="project-feature__story">
+        <p>Human hair has a complex surface story: roughness, friction, adhesion, and nanoscale texture all shape how it behaves. In this project, I used AFM-based surface characterization to compare natural hair with synthetic and PVC-coated composite fibers.</p>
+        <p>I optimized AFM scanning parameters such as set-point force and scan velocity, then analyzed force-distance curves in MATLAB. The work identified PVC composites with tribological behavior comparable to natural curly hair, helping bridge synthetic material design and biological surface mechanics.</p>
+        <p class="project-feature__note">Focus: AFM, adhesion force, friction, roughness, MATLAB, nanocomposite fibers.</p>
+      </div>
+    </div>
+  </article>
+</section>
